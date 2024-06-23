@@ -41,7 +41,7 @@ export const Title =  () => (
                  
                     <li><Link to="/contact">Contact</Link></li>
                 
-                    <li><Link to="/instamart">Cart</Link></li>
+                  
                     <li className="cart"><Link to="/cart" data-testid="cart"><img src={cart} /><div className="cartcount">{cartItems.length}</div></Link></li>
                 </ul>
             </div>
